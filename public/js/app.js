@@ -1899,9 +1899,9 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Header.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Footer.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Header.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Footer.vue?vue&type=script&lang=js& ***!
   \*****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2017,6 +2017,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {};
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LandingPage.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LandingPage.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar */ "./resources/js/components/Navbar.vue");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer */ "./resources/js/components/Footer.vue");
 //
 //
 //
@@ -2206,6 +2225,217 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      listPriceDomain: [{
+        isBest: false,
+        "class": "Bayi",
+        discont: null,
+        price: 19900,
+        discFrontPrice: 14,
+        discBackPrice: 900,
+        user: 938,
+        resource: "0.5X",
+        discSpace: "500 MB",
+        pop3email: "",
+        bandwidth: "Unlimited",
+        database: "Unlimited",
+        domain: 1,
+        addDomain: null,
+        backup: "Instand",
+        freeDomain: "",
+        ssl: "Unlimited SSL",
+        server: "",
+        support: "",
+        protection: ""
+      }, {
+        isBest: false,
+        "class": "Pelajar",
+        discont: null,
+        price: 46900,
+        discFrontPrice: 23,
+        discBackPrice: 900,
+        user: 4168,
+        resource: "1X",
+        discSpace: "Unlimited",
+        pop3email: "Unlimited",
+        bandwidth: "Unlimited",
+        database: "Unlimited",
+        domain: 1,
+        addDomain: 10,
+        backup: "Instand",
+        freeDomain: "Domain Gratis",
+        ssl: "Unlimited SSL",
+        server: "",
+        support: "",
+        protection: ""
+      }, {
+        isBest: true,
+        "class": "Personal",
+        discont: null,
+        price: 58900,
+        discFrontPrice: 38,
+        discBackPrice: 500,
+        user: 10017,
+        resource: "2X",
+        discSpace: "Unlimited",
+        pop3email: "Unlimited",
+        bandwidth: "Unlimited",
+        database: "Unlimited",
+        domain: 1,
+        addDomain: 10,
+        backup: "Instand",
+        freeDomain: "Domain Gratis",
+        ssl: "Unlimited SSL",
+        server: "Private",
+        support: "",
+        protection: "SpamAssasin"
+      }, {
+        isBest: false,
+        "class": "Bisnis",
+        discont: 40,
+        price: 109900,
+        discFrontPrice: 65,
+        discBackPrice: 900,
+        user: 3552,
+        resource: "3X",
+        discSpace: "Unlimited",
+        pop3email: "Unlimited",
+        bandwidth: "Unlimited",
+        database: "Unlimited",
+        domain: 1,
+        addDomain: 10,
+        backup: "Magic & Auto",
+        freeDomain: "Domain Gratis",
+        ssl: "Unlimited SSL",
+        server: "Private",
+        support: "Prioritas",
+        protection: "SpamExpert"
+      }]
+    };
+  },
+  components: {
+    Navbar: _Navbar__WEBPACK_IMPORTED_MODULE_0__["default"],
+    Footer: _Footer__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
+  methods: {
+    formatPrice: function formatPrice(value) {
+      var val = (value / 1).toFixed(0).replace('.', ',');
+      return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Navbar.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 //
 //
 //
@@ -37601,9 +37831,9 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Header.vue?vue&type=template&id=1f42fb90&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&":
 /*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Header.vue?vue&type=template&id=1f42fb90& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374& ***!
   \*********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -37623,484 +37853,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "container" }, [
-        _c("div"),
-        _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-md-6" }, [
-            _c("h2", [_c("b", [_vm._v("PHP Hosting")])]),
-            _vm._v(" "),
-            _c("h2", [
-              _vm._v(
-                "Cepat, Handal, penuh dengan module PHP yang Anda Butuhkan"
-              )
-            ]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [
-                _vm._v("Solusi PHP untuk performa query yang lebih cepat")
-              ]),
-              _vm._v(" "),
-              _c("li", [_vm._v("Konsumsi memori yang lebih rendah")]),
-              _vm._v(" "),
-              _c("li", [
-                _vm._v("Suport PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7")
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _vm._v("Fitur enkripsi IonCube dan Zend Guard Loaders")
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-md-6" }, [
-            _c("img", {
-              attrs: {
-                src: "images/svg/illustration banner PHP hosting-01.svg",
-                alt: ""
-              }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-sm-4" }, [
-              _c("img", { attrs: { src: "", alt: "" } }),
-              _vm._v(" "),
-              _c("p", [_vm._v("PHP Zend Guard Loader")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-sm-4" }, [
-              _c("img", { attrs: { src: "", alt: "" } }),
-              _vm._v(" "),
-              _c("p", [_vm._v("PHP Composer")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-sm-4" }, [
-              _c("img", { attrs: { src: "", alt: "" } }),
-              _vm._v(" "),
-              _c("p", [_vm._v("PHP ionCube Loader")])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("h2", { staticClass: "text-center" }, [
-            _c("b", [_vm._v("Paket Hosting Singapura yang Tepat")])
-          ]),
-          _vm._v(" "),
-          _c("h4", [_vm._v("Diskon 40% + Domain dan SSl Gratis untuk Anda")])
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("h2", { staticClass: "text-center" }, [
-            _vm._v("Powerful dengan limit PHP yang Lebih Besar")
-          ]),
-          _vm._v(" "),
-          _c("div")
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("h2", { staticClass: "text-center" }, [
-            _vm._v("Semua Paket Hosting Sudah Termasuk")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row text-center" }, [
-            _c("div", { staticClass: "col-sm-4 p-5" }, [
-              _c("div", { staticClass: "service" }, [
-                _c("img", {
-                  staticClass: "img-circle",
-                  attrs: {
-                    src: "images/svg/icon PHP Hosting_PHP Semua Versi.svg",
-                    alt: "keuntungan-icon"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("h4", [_vm._v("PHP Semua Versi")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka Anda"
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-sm-4 p-5" }, [
-              _c("div", { staticClass: "service" }, [
-                _c("img", {
-                  staticClass: "img-circle",
-                  attrs: {
-                    src: "images/svg/icon PHP Hosting_My SQL.svg",
-                    alt: "call-icon"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("h4", [_vm._v("Mysql Versi 5.6")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Nikmati MySQL versi terbaru, tercepat dan kaya akan fitur."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-sm-4 p-5" }, [
-              _c("div", { staticClass: "service" }, [
-                _c("img", {
-                  staticClass: "img-circle",
-                  attrs: {
-                    src: "images/svg/icon PHP Hosting_CPanel.svg",
-                    alt: "daftar-icon"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("h4", [_vm._v("Panel Hosting cPanel")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Kelola website dengan panel canggih yang familiar di hati Anda."
-                )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row text-center" }, [
-            _c("div", { staticClass: "col-sm-4 p-5" }, [
-              _c("div", { staticClass: "service" }, [
-                _c("img", {
-                  staticClass: "img-circle",
-                  attrs: {
-                    src: "images/svg/icon PHP Hosting_garansi uptime.svg",
-                    alt: "keuntungan-icon"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("h4", [_vm._v("Garansi Uptime 99.9%")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Data center yang mendukung kelangsungan website anda 24/7."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-sm-4 p-5" }, [
-              _c("div", { staticClass: "service" }, [
-                _c("img", {
-                  staticClass: "img-circle",
-                  attrs: {
-                    src: "images/svg/icon PHP Hosting_InnoDB.svg",
-                    alt: "call-icon"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("h4", [_vm._v("Database InnoDB Unlimited")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Jumlah dan ukuran database yang dibutuhkan sesuai kebutuhan Anda."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-sm-4 p-5" }, [
-              _c("div", { staticClass: "service" }, [
-                _c("img", {
-                  staticClass: "img-circle",
-                  attrs: {
-                    src: "images/svg/icon PHP Hosting_My SQL remote.svg",
-                    alt: "daftar-icon"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("h4", [_vm._v("Wildcard Remote MYSQL")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Mendukung s/d 25 max_user_connections dan 100 max_connections."
-                )
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("h2", { staticClass: "text-center" }, [
-            _vm._v("Mendukung Penuh Framework Laravel")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-6" }, [
-              _c("p", [
-                _vm._v(
-                  "Tak perlu menggunakan dedicated VPS yang mahal. Layanan PHP Hosting murah kami mendukung framework favorite Anda"
-                )
-              ]),
-              _vm._v(" "),
-              _c("ul", [
-                _c("li", [
-                  _vm._v("Install Laravel "),
-                  _c("b", [_vm._v("1 Klik")]),
-                  _vm._v(" dengan softaculus Installer.")
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v("Mendukung extensi "),
-                  _c("b", [_vm._v("PHP MyCrypt, phar, mbstring, json,")]),
-                  _vm._v(" dan "),
-                  _c("b", [_vm._v("fileinfo")])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v("Tersedia "),
-                  _c("b", [_vm._v("Composer")]),
-                  _vm._v(" dan "),
-                  _c("b", [_vm._v("SSH")]),
-                  _vm._v(" untuk menginstall package pilihan Anda")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("span", [
-                _vm._v(
-                  "Nb. Composer dan SSH hanya tersedia pada paket personal dan bisnis"
-                )
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Pilih Hosting Anda")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-6" }, [
-              _c("img", {
-                attrs: {
-                  src:
-                    "images/svg/illustration banner support laravel hosting.svg",
-                  alt: ""
-                }
-              })
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("h2", { staticClass: "text-center" }, [
-            _vm._v("Module Lengkap untuk Menjalankan Aplikasi  PHP Anda")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
-              _c("ul", [
-                _c("li", [_vm._v("IcePHP")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("apc")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("apcu")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("apm")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("ares")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("bcmath")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("bcompiler")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("big_int")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("bitset")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("blommy")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("bz2_filter")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("clamav")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("coin_acceptor")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("crack")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("dba")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
-              _c("ul", [
-                _c("li", [_vm._v("http")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("huffman")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("idn")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("igbinary")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("imagick")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("imap")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("inclued")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("inotify")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("interbase")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("intl")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("ioncube_loader")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("ioncube_loader_4")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("jsmin")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("json")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("idap")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
-              _c("ul", [
-                _c("li", [_vm._v("nd_pdo_mysql")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("oauth")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("oci8")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("odbc")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("opcache")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("pdf")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("pdo")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("pdo_dblib")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("pdo_firebird")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("pdo_mysql")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("pdo_odbc")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("pdo_pgsql")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("pdo_sqlite")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("pgsql")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("phalcon")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
-              _c("ul", [
-                _c("li", [_vm._v("stats")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("stem")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("stomp")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("suhosin")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("sybase-ct")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("sysvmsg")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("sysvem")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("sysvshm")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("tidy")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("timezondb")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("trader")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("translit")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("uploadprogress")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("uri_template")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("uuid")])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", [
-            _c("a", { attrs: { href: "#" } }, [_vm._v("Selengkapnya")])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("h2", [_vm._v("Linux Hosting yang Stabil dengan Teknologi LIVE")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-6" }, [
-              _c("p", [
-                _vm._v("SuperMicro Intel Xeon 24-Cores server dengan RAM "),
-                _c("b", [_vm._v("128 GB")]),
-                _vm._v(" dan Teknologi "),
-                _c("b", [_vm._v("LIVE CloundLinux")]),
-                _vm._v(" untuk stabilitas server Anda. Dilengkapi dengan "),
-                _c("b", [_vm._v("SSD")]),
-                _vm._v(" untuk kecepatan "),
-                _c("b", [_vm._v("MYSQL")]),
-                _vm._v(
-                  " dan chaching. Apache load balancer berbasis LiteSpeed Technologies, "
-                ),
-                _c("b", [_vm._v("CageFS")]),
-                _vm._v(" security, "),
-                _c("b", [_vm._v("Raid-10")]),
-                _vm._v(" protection dan auto backup untuk keamanan PHP Anda.")
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Pilih Hosting Anda")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-6" }, [
-              _c("img", { attrs: { src: "images/Image support.png", alt: "" } })
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-md-6" }, [
-            _c("p", [_vm._v("Bagikan jika Anda menyukai halaman ini")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-md-6" }, [
-            _c("img", { attrs: { src: "", alt: "" } })
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "container" }, [
-        _c("h2", [
-          _vm._v("Perlu "),
-          _c("b", [_vm._v("BANTUAN?")]),
-          _vm._v(" Hubungi kami : "),
-          _c("b", [_vm._v("0274-5305505")])
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("a", { attrs: { href: "#" } }, [_c("i"), _vm._v("Live Chat")])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "container" }, [
+    return _c("div", { staticClass: "section-footer" }, [
+      _c("div", { staticClass: "container mt-3" }, [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
             _c("h5", [_vm._v("HUBUNGI KAMI")]),
             _vm._v(" "),
-            _c("p", [
+            _c("p", { staticClass: "mt-2" }, [
               _vm._v("0274-5305505 "),
               _c("br"),
               _vm._v("\n                Senin - Minggu "),
@@ -38172,7 +37931,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "row mt-5" }, [
           _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
             _c("h5", [_vm._v("TENTANG KAMI")]),
             _vm._v(" "),
@@ -38206,24 +37965,80 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
-            _c("h5", [_vm._v("NEWSLETTER")])
+            _c("h5", [_vm._v("NEWSLETTER")]),
+            _vm._v(" "),
+            _c("div"),
+            _vm._v(" "),
+            _c("p", { staticClass: "font-gray" }, [
+              _vm._v("Dapatkan promo dan konten menarik "),
+              _c("br"),
+              _vm._v("dari penyedia hosting terbaik Anda")
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" })
+          _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
+            _c("ul", { staticClass: "sosmed" }, [
+              _c("li", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("i", { staticClass: "fab fa-facebook-f" }),
+                  _vm._v("f")
+                ]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("i", { staticClass: "fab fa-instagram" }),
+                  _vm._v("t")
+                ]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("i", { staticClass: "fab fa-twitter" }),
+                  _vm._v("g")
+                ])
+              ])
+            ])
+          ])
         ]),
         _vm._v(" "),
-        _c("div", [
+        _c("div", { staticClass: "mt-5" }, [
           _c("h5", [_vm._v("PEMBAYARAN")]),
           _vm._v(" "),
-          _c("p", [
+          _c("div", { staticClass: "payment" }, [
+            _c("img", {
+              staticClass: "list_pay",
+              attrs: {
+                src:
+                  "https://www.niagahoster.co.id/assets/images/2019/payment-gateway/bni.svg",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "list_pay",
+              attrs: {
+                src:
+                  "https://www.niagahoster.co.id/assets/images/2019/payment-gateway/mandiri.svg",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "list_pay",
+              attrs: {
+                src:
+                  "https://www.niagahoster.co.id/assets/images/2019/payment-gateway/bca.svg",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "font-gray" }, [
             _vm._v(
               "Aktivasi instandengan e-payment. Hosting dan domain langsung aktif!"
             )
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-12 col-md-7" }, [
+        _c("div", { staticClass: "row text-info" }, [
+          _c("div", { staticClass: "col-12 col-md-8" }, [
             _c("p", [
               _vm._v(
                 "Copyright ©2016 Niagahoster | Hosting powered by PHP7, CloudLinux, CloudFlare, BitNinja and DC Biznet Technologie Jakarta"
@@ -38237,8 +38052,929 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-12 col-md-5 mt-5 mt-md-0" }, [
-            _c("p", [_vm._v("Syarat dan Ketentuan | Kebijakan Privasi")])
+          _c(
+            "div",
+            { staticClass: "col-12 col-md-4 mt-5 mt-md-0 text-right" },
+            [_c("p", [_vm._v("Syarat dan Ketentuan | Kebijakan Privasi")])]
+          )
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LandingPage.vue?vue&type=template&id=643fd5aa&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LandingPage.vue?vue&type=template&id=643fd5aa& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("Navbar"),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "section-price" }, [
+          _vm._m(2),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [
+            _vm._v("Diskon 40% + Domain dan SSl Gratis untuk Anda")
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "row mt-5 mb-5" },
+            _vm._l(_vm.listPriceDomain, function(item, idx) {
+              return _c(
+                "div",
+                {
+                  key: idx,
+                  staticClass: "col-12 col-sm-6 col-lg-3 p-0 text-center"
+                },
+                [
+                  _c("div", { staticClass: "boxes" }, [
+                    _c("div", { staticClass: "box-head" }, [
+                      _c("h4", [_vm._v(_vm._s(item.class))]),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        { staticStyle: { "text-decoration": "line-through" } },
+                        [_vm._v("Rp" + _vm._s(_vm.formatPrice(item.price)))]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v("Rp"),
+                        _c("span", [_vm._v(_vm._s(item.discFrontPrice) + ".")]),
+                        _vm._v(_vm._s(item.discBackPrice) + "/bln")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(_vm._s(item.user) + " Pengguna Terdaftar")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("b", [
+                        _vm._v(_vm._s(item.resource) + " RESOURCE POWER")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.discSpace != "",
+                            expression: "item.discSpace != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.discSpace) + " ")]),
+                        _vm._v("Disk Space")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.bandwidth != "",
+                            expression: "item.bandwidth != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.bandwidth) + " ")]),
+                        _vm._v("Bandwidth")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.pop3email != "",
+                            expression: "item.pop3email != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.pop3email) + " ")]),
+                        _vm._v("POP3 Email")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.database != "",
+                            expression: "item.database != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.database) + " ")]),
+                        _vm._v("Database")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.domain != null,
+                            expression: "item.domain != null"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.domain) + " ")]),
+                        _vm._v("Addon Domains")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.backup != "",
+                            expression: "item.backup != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.backup) + " ")]),
+                        _vm._v("Backup")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.freeDomain != "",
+                            expression: "item.freeDomain != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.freeDomain) + " ")]),
+                        _vm._v("Selamanya")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.ssl != "",
+                            expression: "item.ssl != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.ssl) + " ")]),
+                        _vm._v("Gratis Selamanya")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.server != "",
+                            expression: "item.server != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.server) + " ")]),
+                        _vm._v("Name Server")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.support != "",
+                            expression: "item.support != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.support) + " ")]),
+                        _vm._v("Layanan Support")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: item.protection != "",
+                            expression: "item.protection != ''"
+                          }
+                        ]
+                      },
+                      [
+                        _c("b", [_vm._v(_vm._s(item.protection) + " ")]),
+                        _vm._v("Pro Mail Protection")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mt-4 mb-4" }, [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _vm._v(
+                          _vm._s(
+                            item.discont == null
+                              ? "Pilih Sekarang"
+                              : "Discont " + item.discont + "%"
+                          )
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              )
+            }),
+            0
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(3),
+        _vm._v(" "),
+        _vm._m(4)
+      ]),
+      _vm._v(" "),
+      _vm._m(5),
+      _vm._v(" "),
+      _vm._m(6),
+      _vm._v(" "),
+      _vm._m(7),
+      _vm._v(" "),
+      _vm._m(8),
+      _vm._v(" "),
+      _c("Footer")
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "section-top" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("h2", [_c("b", [_vm._v("PHP Hosting")])]),
+            _vm._v(" "),
+            _c("h2", [
+              _vm._v(
+                "Cepat, Handal, penuh dengan module PHP yang Anda Butuhkan"
+              )
+            ]),
+            _vm._v(" "),
+            _c("ul", [
+              _c("li", [
+                _vm._v("Solusi PHP untuk performa query yang lebih cepat")
+              ]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Konsumsi memori yang lebih rendah")]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v("Suport PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7")
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v("Fitur enkripsi IonCube dan Zend Guard Loaders")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-6 text-right" }, [
+            _c("img", {
+              attrs: {
+                src: "images/svg/illustration banner PHP hosting-01.svg",
+                alt: ""
+              }
+            })
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-sm-4" }, [
+          _c("img", { attrs: { src: "", alt: "" } }),
+          _vm._v(" "),
+          _c("p", [_vm._v("PHP Zend Guard Loader")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-4" }, [
+          _c("img", { attrs: { src: "", alt: "" } }),
+          _vm._v(" "),
+          _c("p", [_vm._v("PHP Composer")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-4" }, [
+          _c("img", { attrs: { src: "", alt: "" } }),
+          _vm._v(" "),
+          _c("p", [_vm._v("PHP ionCube Loader")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "text-center" }, [
+      _c("b", [_vm._v("Paket Hosting Singapura yang Tepat")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h2", { staticClass: "text-center" }, [
+        _vm._v("Powerful dengan limit PHP yang Lebih Besar")
+      ]),
+      _vm._v(" "),
+      _c("div")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "section-service" }, [
+      _c("h2", { staticClass: "text-center" }, [
+        _vm._v("Semua Paket Hosting Sudah Termasuk")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row text-center" }, [
+        _c("div", { staticClass: "col-sm-4 p-4" }, [
+          _c("div", { staticClass: "service" }, [
+            _c("img", {
+              staticClass: "img-circle",
+              attrs: {
+                src: "images/svg/icon PHP Hosting_PHP Semua Versi.svg",
+                alt: "keuntungan-icon"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("h4", [_vm._v("PHP Semua Versi")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka Anda")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-4 p-4" }, [
+          _c("div", { staticClass: "service" }, [
+            _c("img", {
+              staticClass: "img-circle",
+              attrs: {
+                src: "images/svg/icon PHP Hosting_My SQL.svg",
+                alt: "call-icon"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("h4", [_vm._v("Mysql Versi 5.6")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("Nikmati MySQL versi terbaru, tercepat dan kaya akan fitur.")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-4 p-4" }, [
+          _c("div", { staticClass: "service" }, [
+            _c("img", {
+              staticClass: "img-circle",
+              attrs: {
+                src: "images/svg/icon PHP Hosting_CPanel.svg",
+                alt: "daftar-icon"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("h4", [_vm._v("Panel Hosting cPanel")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Kelola website dengan panel canggih yang familiar di hati Anda."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row text-center" }, [
+        _c("div", { staticClass: "col-sm-4 p-4" }, [
+          _c("div", { staticClass: "service" }, [
+            _c("img", {
+              staticClass: "img-circle",
+              attrs: {
+                src: "images/svg/icon PHP Hosting_garansi uptime.svg",
+                alt: "keuntungan-icon"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("h4", [_vm._v("Garansi Uptime 99.9%")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("Data center yang mendukung kelangsungan website anda 24/7.")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-4 p-4" }, [
+          _c("div", { staticClass: "service" }, [
+            _c("img", {
+              staticClass: "img-circle",
+              attrs: {
+                src: "images/svg/icon PHP Hosting_InnoDB.svg",
+                alt: "call-icon"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("h4", [_vm._v("Database InnoDB Unlimited")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Jumlah dan ukuran database yang dibutuhkan sesuai kebutuhan Anda."
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-4 p-4" }, [
+          _c("div", { staticClass: "service" }, [
+            _c("img", {
+              staticClass: "img-circle",
+              attrs: {
+                src: "images/svg/icon PHP Hosting_My SQL remote.svg",
+                alt: "daftar-icon"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("h4", [_vm._v("Wildcard Remote MYSQL")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Mendukung s/d 25 max_user_connections dan 100 max_connections."
+            )
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "section-laravel" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h2", { staticClass: "text-center mb-4" }, [
+          _vm._v("Mendukung Penuh Framework Laravel")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("p", [
+              _vm._v(
+                "Tak perlu menggunakan dedicated VPS yang mahal. Layanan PHP Hosting murah kami mendukung framework favorite Anda"
+              )
+            ]),
+            _vm._v(" "),
+            _c("ul", [
+              _c("li", [
+                _vm._v("Install Laravel "),
+                _c("b", [_vm._v("1 Klik")]),
+                _vm._v(" dengan softaculus Installer.")
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v("Mendukung extensi "),
+                _c("b", [_vm._v("PHP MyCrypt, phar, mbstring, json,")]),
+                _vm._v(" dan "),
+                _c("b", [_vm._v("fileinfo")])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v("Tersedia "),
+                _c("b", [_vm._v("Composer")]),
+                _vm._v(" dan "),
+                _c("b", [_vm._v("SSH")]),
+                _vm._v(" untuk menginstall package pilihan Anda")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "info" }, [
+              _vm._v(
+                "Nb. Composer dan SSH hanya tersedia pada paket personal dan bisnis"
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-3" }, [
+              _c("a", { attrs: { href: "#" } }, [_vm._v("Pilih Hosting Anda")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-6 text-right" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "images/svg/illustration banner support laravel hosting.svg",
+                alt: ""
+              }
+            })
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "section-module" }, [
+        _c("h2", { staticClass: "text-center mb-5" }, [
+          _vm._v("Module Lengkap untuk Menjalankan Aplikasi  PHP Anda")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
+            _c("ul", [
+              _c("li", [_vm._v("IcePHP")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("apc")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("apcu")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("apm")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("ares")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("bcmath")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("bcompiler")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("big_int")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("bitset")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("blommy")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("bz2_filter")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("clamav")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("coin_acceptor")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("crack")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("dba")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
+            _c("ul", [
+              _c("li", [_vm._v("http")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("huffman")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("idn")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("igbinary")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("imagick")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("imap")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("inclued")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("inotify")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("interbase")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("intl")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("ioncube_loader")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("ioncube_loader_4")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("jsmin")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("json")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("idap")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
+            _c("ul", [
+              _c("li", [_vm._v("nd_pdo_mysql")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("oauth")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("oci8")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("odbc")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("opcache")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("pdf")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("pdo")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("pdo_dblib")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("pdo_firebird")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("pdo_mysql")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("pdo_odbc")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("pdo_pgsql")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("pdo_sqlite")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("pgsql")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("phalcon")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 col-sm-6 col-lg-3" }, [
+            _c("ul", [
+              _c("li", [_vm._v("stats")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("stem")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("stomp")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("suhosin")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("sybase-ct")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("sysvmsg")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("sysvem")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("sysvshm")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("tidy")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("timezondb")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("trader")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("translit")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("uploadprogress")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("uri_template")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("uuid")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "text-center mt-4 mb-5" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Selengkapnya")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "section-linux" }, [
+        _c("h2", [_vm._v("Linux Hosting yang Stabil dengan Teknologi LIVE")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("p", [
+              _vm._v("SuperMicro Intel Xeon 24-Cores server dengan RAM "),
+              _c("b", [_vm._v("128 GB")]),
+              _vm._v(" dan Teknologi "),
+              _c("b", [_vm._v("LIVE CloundLinux")]),
+              _vm._v(" untuk stabilitas server Anda. Dilengkapi dengan "),
+              _c("b", [_vm._v("SSD")]),
+              _vm._v(" untuk kecepatan "),
+              _c("b", [_vm._v("MYSQL")]),
+              _vm._v(
+                " dan chaching. Apache load balancer berbasis LiteSpeed Technologies, "
+              ),
+              _c("b", [_vm._v("CageFS")]),
+              _vm._v(" security, "),
+              _c("b", [_vm._v("Raid-10")]),
+              _vm._v(" protection dan auto backup untuk keamanan PHP Anda.")
+            ]),
+            _vm._v(" "),
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Pilih Hosting Anda")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("img", { attrs: { src: "images/Image support.png", alt: "" } })
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "section-shared" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("p", [_vm._v("Bagikan jika Anda menyukai halaman ini")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("img", { attrs: { src: "", alt: "" } })
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "section-info" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-10" }, [
+            _c("h2", [
+              _vm._v("Perlu "),
+              _c("b", [_vm._v("BANTUAN?")]),
+              _vm._v(" Hubungi Kami : "),
+              _c("b", [_vm._v("0274-5305505")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-2" }, [
+            _c("a", { attrs: { href: "#" } }, [_c("i"), _vm._v("Live Chat")])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "section-navbar" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("ul", { staticClass: "navbar-sub" }, [
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [_vm._v("0274-5305505")])
+          ]),
+          _vm._v(" "),
+          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Live Chat")])]),
+          _vm._v(" "),
+          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Member Area")])])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "spacer" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("nav", [
+            _c("a", { attrs: { href: "" } }),
+            _vm._v(" "),
+            _c("div", { staticClass: "nav-colapse" }, [
+              _c("ul", { staticClass: "navbar-sub" }, [
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting")])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Domain")])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Server")])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Website")])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Afiliansi")])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Promo")])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Pembayaran")])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Review")])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Kontak")])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "navbar" }, [
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Blog")])
+                ])
+              ])
+            ])
           ])
         ])
       ])
@@ -50417,7 +51153,7 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_Header_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Header.vue */ "./resources/js/components/Header.vue");
+/* harmony import */ var _components_LandingPage_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/LandingPage.vue */ "./resources/js/components/LandingPage.vue");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -50441,7 +51177,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 var app = new Vue({
   el: '#app',
   components: {
-    HeaderComponent: _components_Header_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+    HeaderComponent: _components_LandingPage_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 
@@ -50492,17 +51228,17 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/Header.vue":
+/***/ "./resources/js/components/Footer.vue":
 /*!********************************************!*\
-  !*** ./resources/js/components/Header.vue ***!
+  !*** ./resources/js/components/Footer.vue ***!
   \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Header.vue?vue&type=template&id=1f42fb90& */ "./resources/js/components/Header.vue?vue&type=template&id=1f42fb90&");
-/* harmony import */ var _Header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.vue?vue&type=script&lang=js& */ "./resources/js/components/Header.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer.vue?vue&type=template&id=61a7c374& */ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&");
+/* harmony import */ var _Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.vue?vue&type=script&lang=js& */ "./resources/js/components/Footer.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -50512,9 +51248,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -50524,38 +51260,176 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/Header.vue"
+component.options.__file = "resources/js/components/Footer.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/components/Header.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/components/Footer.vue?vue&type=script&lang=js&":
 /*!*********************************************************************!*\
-  !*** ./resources/js/components/Header.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/components/Footer.vue?vue&type=script&lang=js& ***!
   \*********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Header.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Header.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Footer.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Footer.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/components/Header.vue?vue&type=template&id=1f42fb90&":
+/***/ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&":
 /*!***************************************************************************!*\
-  !*** ./resources/js/components/Header.vue?vue&type=template&id=1f42fb90& ***!
+  !*** ./resources/js/components/Footer.vue?vue&type=template&id=61a7c374& ***!
   \***************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Header.vue?vue&type=template&id=1f42fb90& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Header.vue?vue&type=template&id=1f42fb90&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Footer.vue?vue&type=template&id=61a7c374& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/LandingPage.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/LandingPage.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _LandingPage_vue_vue_type_template_id_643fd5aa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LandingPage.vue?vue&type=template&id=643fd5aa& */ "./resources/js/components/LandingPage.vue?vue&type=template&id=643fd5aa&");
+/* harmony import */ var _LandingPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LandingPage.vue?vue&type=script&lang=js& */ "./resources/js/components/LandingPage.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _LandingPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _LandingPage_vue_vue_type_template_id_643fd5aa___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _LandingPage_vue_vue_type_template_id_643fd5aa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/LandingPage.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/LandingPage.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/LandingPage.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LandingPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./LandingPage.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LandingPage.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LandingPage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/LandingPage.vue?vue&type=template&id=643fd5aa&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/LandingPage.vue?vue&type=template&id=643fd5aa& ***!
+  \********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LandingPage_vue_vue_type_template_id_643fd5aa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./LandingPage.vue?vue&type=template&id=643fd5aa& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LandingPage.vue?vue&type=template&id=643fd5aa&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LandingPage_vue_vue_type_template_id_643fd5aa___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LandingPage_vue_vue_type_template_id_643fd5aa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Navbar.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Navbar.vue ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Navbar_vue_vue_type_template_id_6dde423b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar.vue?vue&type=template&id=6dde423b& */ "./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&");
+/* harmony import */ var _Navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar.vue?vue&type=script&lang=js& */ "./resources/js/components/Navbar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Navbar_vue_vue_type_template_id_6dde423b___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Navbar_vue_vue_type_template_id_6dde423b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Navbar.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Navbar.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/components/Navbar.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Navbar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b& ***!
+  \***************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_template_id_6dde423b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Navbar.vue?vue&type=template&id=6dde423b& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_template_id_6dde423b___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_template_id_6dde423b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

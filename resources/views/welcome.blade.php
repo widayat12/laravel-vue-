@@ -13,9 +13,7 @@
     </head>
     <body>
         <div id="app">
-            <div class="container">
-                <header-component></header-component>
-            </div>
+            <header-component></header-component>
         </div>
         <script src="{{asset('js/app.js')}}"></script>
     </body>

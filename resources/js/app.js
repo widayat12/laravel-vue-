@@ -21,7 +21,7 @@ window.Vue = require('vue');
 
 // Vue.component('header-component', require('./components/Header.vue').default);
 
-import HeaderComponent from './components/Header.vue';
+import HeaderComponent from './components/LandingPage.vue';
 const app = new Vue({
     el: '#app',
     components: {

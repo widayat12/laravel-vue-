@@ -1,5 +1,319 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);@charset "UTF-8";
 
+.section-footer {
+  background: #363636;
+  color: #fff;
+  padding: 24px 0;
+}
+
+.section-footer ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-footer ul li {
+  line-height: 1.71;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.section-footer h5 {
+  font-size: 12px;
+  color: #dadada;
+}
+
+.section-footer p {
+  line-height: 2;
+  font-size: 12px;
+}
+
+.section-footer .payment {
+  padding: 10px 0;
+}
+
+.section-footer .payment .list_pay {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80px;
+}
+
+.section-footer .font-gray {
+  color: #666666;
+  font-size: 10px;
+}
+
+.section-footer .text-info p {
+  font-size: 10px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  line-height: 1.71;
+}
+
+.section-footer .sosmed {
+  display: flex;
+}
+
+.section-footer .sosmed a {
+  border: 2px solid;
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 10px 20px;
+  color: #fff;
+  margin: 5px;
+}
+
+.section-footer .sosmed a:hover {
+  text-decoration: none;
+  color: #666666;
+}
+
+.section-navbar {
+  display: block;
+  padding-top: 15px;
+}
+
+.section-navbar .spacer {
+  border-top: 1px solid #c4c3c3;
+  border-bottom: 1px solid #c4c3c3;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+
+.section-navbar .navbar-sub {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.section-navbar .navbar-sub .navbar {
+  padding: 0;
+}
+
+.section-navbar .navbar-sub .navbar a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+}
+
+.section-navbar .navbar-sub li {
+  margin-left: 20px;
+}
+
+.section-navbar .navbar-sub li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 10px;
+}
+
+.section-top {
+  border-bottom: 1px solid #c4c3c3;
+  padding: 15px 0 25px;
+}
+
+.section-top ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-top ul li {
+  line-height: 2;
+}
+
+.section-top img {
+  width: 400px;
+  height: auto;
+}
+
+.section-laravel {
+  border-bottom: 1px solid #c4c3c3;
+  margin-bottom: 20px;
+}
+
+.section-laravel ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-laravel ul li {
+  line-height: 2;
+}
+
+.section-laravel .info {
+  font-size: 10px;
+  margin: 10px 0;
+}
+
+.section-laravel a {
+  background: #3490dc;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.section-laravel a:hover {
+  text-decoration: none;
+}
+
+.section-laravel img {
+  width: 400px;
+  height: auto;
+}
+
+.section-price .boxes {
+  border: 1px solid grey;
+}
+
+.section-price p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  color: #797979;
+  line-height: 2;
+}
+
+.section-price p b {
+  color: #363636;
+  font-weight: 900;
+}
+
+.section-price a {
+  border: 1px solid #363636;
+  color: #363636;
+  font-weight: bold;
+  padding: 7px 15px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.section-price a:hover {
+  border: none;
+  text-decoration: none;
+  background: #3490dc;
+  color: #fff;
+}
+
+.section-service h4 {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.31;
+}
+
+.section-service p {
+  padding: 0;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.31;
+}
+
+.section-service img {
+  width: 80px;
+  height: auto;
+}
+
+.section-module {
+  margin-bottom: 20px;
+}
+
+.section-module ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-module ul li {
+  line-height: 1.71;
+  font-size: 12px;
+}
+
+.section-module a {
+  border: 1px solid #363636;
+  color: #363636;
+  font-weight: bold;
+  padding: 7px 15px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.section-module a:hover {
+  border: none;
+  text-decoration: none;
+  background: #3490dc;
+  color: #fff;
+}
+
+.section-linux a {
+  background: #3490dc;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.section-linux a:hover {
+  text-decoration: none;
+}
+
+.section-linux img {
+  width: 400px;
+  height: auto;
+}
+
+.section-shared {
+  background: #dfdfdf;
+  padding: 15px 0;
+}
+
+.section-shared p {
+  margin: 0;
+  padding: 0;
+}
+
+.section-info {
+  background: #3490dc;
+  padding: 25px 0;
+}
+
+.section-info .flex {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.section-info h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.section-info a {
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 15px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.section-info a:hover {
+  border: none;
+  text-decoration: none;
+  background: #fff;
+  color: #363636;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
