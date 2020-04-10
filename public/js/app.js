@@ -2321,6 +2321,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -38112,7 +38143,7 @@ var render = function() {
                 },
                 [
                   _c("div", { staticClass: "boxes" }, [
-                    _c("div", { staticClass: "box-head" }, [
+                    _c("div", { class: item.isBest ? "box-head" : "" }, [
                       _c("h4", [_vm._v(_vm._s(item.class))]),
                       _vm._v(" "),
                       _c(
@@ -38122,7 +38153,7 @@ var render = function() {
                       ),
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("Rp"),
+                        _vm._v("Rp "),
                         _c("span", [_vm._v(_vm._s(item.discFrontPrice) + ".")]),
                         _vm._v(_vm._s(item.discBackPrice) + "/bln")
                       ]),
@@ -38132,220 +38163,229 @@ var render = function() {
                       ])
                     ]),
                     _vm._v(" "),
-                    _c("p", [
-                      _c("b", [
-                        _vm._v(_vm._s(item.resource) + " RESOURCE POWER")
-                      ])
+                    _c("div", { staticClass: "pt-3 spacer" }, [
+                      _c("p", [
+                        _c("b", [
+                          _vm._v(_vm._s(item.resource) + " RESOURCE POWER")
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.discSpace != "",
+                              expression: "item.discSpace != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.discSpace) + " ")]),
+                          _vm._v("Disk Space")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.bandwidth != "",
+                              expression: "item.bandwidth != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.bandwidth) + " ")]),
+                          _vm._v("Bandwidth")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.pop3email != "",
+                              expression: "item.pop3email != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.pop3email) + " ")]),
+                          _vm._v("POP3 Email")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.database != "",
+                              expression: "item.database != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.database) + " ")]),
+                          _vm._v("Database")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.domain != null,
+                              expression: "item.domain != null"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.domain) + " ")]),
+                          _vm._v("Addon Domains")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.backup != "",
+                              expression: "item.backup != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.backup) + " ")]),
+                          _vm._v("Backup")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.freeDomain != "",
+                              expression: "item.freeDomain != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.freeDomain) + " ")]),
+                          _vm._v("Selamanya")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.ssl != "",
+                              expression: "item.ssl != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.ssl) + " ")]),
+                          _vm._v("Gratis Selamanya")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.server != "",
+                              expression: "item.server != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.server) + " ")]),
+                          _vm._v("Name Server")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.support != "",
+                              expression: "item.support != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.support) + " ")]),
+                          _vm._v("Layanan Support")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: item.protection != "",
+                              expression: "item.protection != ''"
+                            }
+                          ]
+                        },
+                        [
+                          _c("b", [_vm._v(_vm._s(item.protection) + " ")]),
+                          _vm._v("Pro Mail Protection")
+                        ]
+                      )
                     ]),
                     _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.discSpace != "",
-                            expression: "item.discSpace != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.discSpace) + " ")]),
-                        _vm._v("Disk Space")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.bandwidth != "",
-                            expression: "item.bandwidth != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.bandwidth) + " ")]),
-                        _vm._v("Bandwidth")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.pop3email != "",
-                            expression: "item.pop3email != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.pop3email) + " ")]),
-                        _vm._v("POP3 Email")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.database != "",
-                            expression: "item.database != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.database) + " ")]),
-                        _vm._v("Database")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.domain != null,
-                            expression: "item.domain != null"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.domain) + " ")]),
-                        _vm._v("Addon Domains")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.backup != "",
-                            expression: "item.backup != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.backup) + " ")]),
-                        _vm._v("Backup")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.freeDomain != "",
-                            expression: "item.freeDomain != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.freeDomain) + " ")]),
-                        _vm._v("Selamanya")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.ssl != "",
-                            expression: "item.ssl != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.ssl) + " ")]),
-                        _vm._v("Gratis Selamanya")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.server != "",
-                            expression: "item.server != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.server) + " ")]),
-                        _vm._v("Name Server")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.support != "",
-                            expression: "item.support != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.support) + " ")]),
-                        _vm._v("Layanan Support")
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        directives: [
-                          {
-                            name: "show",
-                            rawName: "v-show",
-                            value: item.protection != "",
-                            expression: "item.protection != ''"
-                          }
-                        ]
-                      },
-                      [
-                        _c("b", [_vm._v(_vm._s(item.protection) + " ")]),
-                        _vm._v("Pro Mail Protection")
-                      ]
-                    ),
-                    _vm._v(" "),
                     _c("div", { staticClass: "mt-4 mb-4" }, [
-                      _c("a", { attrs: { href: "#" } }, [
-                        _vm._v(
-                          _vm._s(
-                            item.discont == null
-                              ? "Pilih Sekarang"
-                              : "Discont " + item.discont + "%"
+                      _c(
+                        "a",
+                        {
+                          class: item.isBest ? "active" : "non-active ",
+                          attrs: { href: "#" }
+                        },
+                        [
+                          _vm._v(
+                            _vm._s(
+                              item.discont == null
+                                ? "Pilih Sekarang"
+                                : "Discont " + item.discont + "%"
+                            )
                           )
-                        )
-                      ])
+                        ]
+                      )
                     ])
                   ])
                 ]
@@ -38462,7 +38502,31 @@ var staticRenderFns = [
         _vm._v("Powerful dengan limit PHP yang Lebih Besar")
       ]),
       _vm._v(" "),
-      _c("div")
+      _c("div", { staticClass: "wrap-limit" }, [
+        _c("div", { staticClass: "table-group" }, [
+          _c("table", { staticClass: "table table-striped" }, [
+            _c("tbody", [
+              _c("tr", [_c("td", [_vm._v("max execution time 300s")])]),
+              _vm._v(" "),
+              _c("tr", [_c("td", [_vm._v("max execution time 300s")])]),
+              _vm._v(" "),
+              _c("tr", [_c("td", [_vm._v("php memory limit 1024 MB")])])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "table-group" }, [
+          _c("table", { staticClass: "table table-striped" }, [
+            _c("tbody", [
+              _c("tr", [_c("td", [_vm._v("post max size 128 MB")])]),
+              _vm._v(" "),
+              _c("tr", [_c("td", [_vm._v("upload max filesize 128 MB")])]),
+              _vm._v(" "),
+              _c("tr", [_c("td", [_vm._v("max input vars 2500")])])
+            ])
+          ])
+        ])
+      ])
     ])
   },
   function() {
@@ -38812,7 +38876,11 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "section-linux" }, [
-        _c("h2", [_vm._v("Linux Hosting yang Stabil dengan Teknologi LIVE")]),
+        _c("h2", { staticStyle: { color: "grey" } }, [
+          _vm._v("Linux Hosting yang Stabil "),
+          _c("br"),
+          _vm._v(" dengan Teknologi LIVE")
+        ]),
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-md-6" }, [

@@ -172,6 +172,28 @@
   border: 1px solid grey;
 }
 
+.section-price .boxes .box-head {
+  background: #3490dc;
+  color: #fff;
+}
+
+.section-price .boxes .box-head h4 {
+  font-size: 20px;
+}
+
+.section-price .boxes .box-head p {
+  color: #fff;
+}
+
+.section-price .boxes .spacer {
+  border-top: 1px solid #797979;
+}
+
+.section-price .boxes span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .section-price p {
   font-size: 12px;
   padding: 0;
@@ -186,21 +208,57 @@
   font-weight: 900;
 }
 
-.section-price a {
-  border: 1px solid #363636;
-  color: #363636;
+.section-price .active {
   font-weight: bold;
   padding: 7px 15px;
   border-radius: 20px;
   margin-top: 15px;
   font-size: 12px;
+  background: #3490dc;
+  color: #fff;
+  border: none;
 }
 
-.section-price a:hover {
+.section-price .active:hover {
+  border: none;
+  text-decoration: none;
+  color: #363636;
+}
+
+.section-price .non-active {
+  font-weight: bold;
+  padding: 7px 15px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-size: 12px;
+  border: 1px solid #363636;
+  color: #363636;
+}
+
+.section-price .non-active:hover {
   border: none;
   text-decoration: none;
   background: #3490dc;
   color: #fff;
+}
+
+.wrap-limit {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-limit .table-group {
+  margin: 10px;
+}
+
+.wrap-limit .table-striped {
+  border: 1px solid #c4c3c3;
+}
+
+.wrap-limit .table td {
+  padding-left: 75px;
+  padding-right: 75px;
+  font-size: 12px;
 }
 
 .section-service h4 {
@@ -252,6 +310,16 @@
   text-decoration: none;
   background: #3490dc;
   color: #fff;
+}
+
+.section-linux p {
+  color: grey;
+  font-size: 14px;
+}
+
+.section-linux p b {
+  font-weight: bold;
+  color: #363636;
 }
 
 .section-linux a {
